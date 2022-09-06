@@ -1,0 +1,86 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+.DaysDiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 5%;
+
+
+}
+.infoDiv{
+    background-color:  #1E1E1E;
+   
+    font-family: 'Cormorant Upright', serif;
+    text-align: left;
+    
+}
+.gallaryDiv{
+    background-color:  #1E1E1E;
+   
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.dayDiv{
+    font-size: 52px;
+    
+    color: #2E8BFF;
+}
+.dateDiv{
+    font-size: 20px;
+    color: #6F7378;
+}
+
+.gallaryImage{
+    
+    width: 150px;
+    height: 150px;
+    margin: 1% 2%;
+    border-radius: 15px;
+}
+
+
+@media screen and (max-width:428px){
+    .DaysDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .gallaryDiv{
+         width: 100%;
+         
+        
+       
+      
+    }
+   
+    .gallaryImage{
+    
+    width: 100px;
+    height: 100px;
+    margin: 2% 2%;
+    border-radius: 15px;
+}
+}
+
+@media screen and (max-width:1011px){
+     .DaysDiv{
+        display: flex;
+        
+    }
+    .gallaryDiv{
+         width: 90%;
+    }
+    .dayDiv{
+    font-size: 46px;
+
+}
+
+}

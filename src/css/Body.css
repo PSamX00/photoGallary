@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gallaryBody{
+    min-height: 70vh;
+    background-color: #1E1E1E;
+}
+
